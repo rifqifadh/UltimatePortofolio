@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9961D7FD25D3E823001CBB5B /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961D7FC25D3E823001CBB5B /* EditItemView.swift */; };
+		9961D80025D3EBC5001CBB5B /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961D7FF25D3EBC5001CBB5B /* ItemRowView.swift */; };
+		9961D80325D41133001CBB5B /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961D80225D41133001CBB5B /* Binding-OnChange.swift */; };
+		9961D80625D416D4001CBB5B /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961D80525D416D4001CBB5B /* ProjectHeaderView.swift */; };
+		9961D80925D41973001CBB5B /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9961D80825D41973001CBB5B /* Color.xcassets */; };
+		9961D80D25D420A2001CBB5B /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961D80C25D420A2001CBB5B /* EditProjectView.swift */; };
+		9980FE7025D28150008F8667 /* Item+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980FE6F25D28150008F8667 /* Item+CoreDataHelpers.swift */; };
+		9980FE7325D2822E008F8667 /* Project+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980FE7225D2822E008F8667 /* Project+CoreDataHelpers.swift */; };
 		99A3BF2025D247B300CF1C91 /* UltimatePortofolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3BF1F25D247B300CF1C91 /* UltimatePortofolioApp.swift */; };
 		99A3BF2225D247B300CF1C91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3BF2125D247B300CF1C91 /* ContentView.swift */; };
 		99A3BF2425D247B700CF1C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A3BF2325D247B700CF1C91 /* Assets.xcassets */; };
@@ -18,6 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9961D7FC25D3E823001CBB5B /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		9961D7FF25D3EBC5001CBB5B /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		9961D80225D41133001CBB5B /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
+		9961D80525D416D4001CBB5B /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		9961D80825D41973001CBB5B /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		9961D80C25D420A2001CBB5B /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
+		9980FE6F25D28150008F8667 /* Item+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		9980FE7225D2822E008F8667 /* Project+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		99A3BF1C25D247B300CF1C91 /* UltimatePortofolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortofolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A3BF1F25D247B300CF1C91 /* UltimatePortofolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortofolioApp.swift; sourceTree = "<group>"; };
 		99A3BF2125D247B300CF1C91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,15 +76,23 @@
 		99A3BF1E25D247B300CF1C91 /* UltimatePortofolio */ = {
 			isa = PBXGroup;
 			children = (
-				99A3BF1F25D247B300CF1C91 /* UltimatePortofolioApp.swift */,
-				99A3BF2125D247B300CF1C91 /* ContentView.swift */,
-				99A3BF3725D2587D00CF1C91 /* HomeView.swift */,
-				99A3BF3A25D258E400CF1C91 /* ProjectsView.swift */,
-				99A3BF2325D247B700CF1C91 /* Assets.xcassets */,
 				99A3BF2825D247B700CF1C91 /* Info.plist */,
-				99A3BF2525D247B700CF1C91 /* Preview Content */,
-				99A3BF2F25D24BF200CF1C91 /* Main.xcdatamodeld */,
+				9961D80225D41133001CBB5B /* Binding-OnChange.swift */,
+				99A3BF2125D247B300CF1C91 /* ContentView.swift */,
 				99A3BF3325D24F3C00CF1C91 /* DataController.swift */,
+				9961D7FC25D3E823001CBB5B /* EditItemView.swift */,
+				99A3BF3725D2587D00CF1C91 /* HomeView.swift */,
+				9980FE6F25D28150008F8667 /* Item+CoreDataHelpers.swift */,
+				9961D7FF25D3EBC5001CBB5B /* ItemRowView.swift */,
+				9980FE7225D2822E008F8667 /* Project+CoreDataHelpers.swift */,
+				9961D80525D416D4001CBB5B /* ProjectHeaderView.swift */,
+				99A3BF3A25D258E400CF1C91 /* ProjectsView.swift */,
+				99A3BF1F25D247B300CF1C91 /* UltimatePortofolioApp.swift */,
+				99A3BF2325D247B700CF1C91 /* Assets.xcassets */,
+				9961D80825D41973001CBB5B /* Color.xcassets */,
+				99A3BF2F25D24BF200CF1C91 /* Main.xcdatamodeld */,
+				99A3BF2525D247B700CF1C91 /* Preview Content */,
+				9961D80C25D420A2001CBB5B /* EditProjectView.swift */,
 			);
 			path = UltimatePortofolio;
 			sourceTree = "<group>";
@@ -140,6 +164,7 @@
 			files = (
 				99A3BF2725D247B700CF1C91 /* Preview Assets.xcassets in Resources */,
 				99A3BF2425D247B700CF1C91 /* Assets.xcassets in Resources */,
+				9961D80925D41973001CBB5B /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,12 +175,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9980FE7325D2822E008F8667 /* Project+CoreDataHelpers.swift in Sources */,
+				9961D80625D416D4001CBB5B /* ProjectHeaderView.swift in Sources */,
 				99A3BF3B25D258E400CF1C91 /* ProjectsView.swift in Sources */,
 				99A3BF3125D24BF200CF1C91 /* Main.xcdatamodeld in Sources */,
+				9961D80D25D420A2001CBB5B /* EditProjectView.swift in Sources */,
 				99A3BF3425D24F3C00CF1C91 /* DataController.swift in Sources */,
+				9961D80025D3EBC5001CBB5B /* ItemRowView.swift in Sources */,
 				99A3BF2225D247B300CF1C91 /* ContentView.swift in Sources */,
+				9961D80325D41133001CBB5B /* Binding-OnChange.swift in Sources */,
 				99A3BF3825D2587D00CF1C91 /* HomeView.swift in Sources */,
 				99A3BF2025D247B300CF1C91 /* UltimatePortofolioApp.swift in Sources */,
+				9980FE7025D28150008F8667 /* Item+CoreDataHelpers.swift in Sources */,
+				9961D7FD25D3E823001CBB5B /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
